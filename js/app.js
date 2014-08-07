@@ -10,7 +10,6 @@ $(document).ready(function(){
 
 	function newGame() {
 		count = 0;
-		generateNum();
 		randomNum = generateNum();
 		$feedback.text('Make Your Guess!');
 		$guessButton.attr('disabled', false);
